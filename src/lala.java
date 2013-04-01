@@ -10,6 +10,7 @@ public class lala {
 	/**
 	 * @param args
 	 * @throws IOException 
+	 * 
 	 */
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader("src/input"));
