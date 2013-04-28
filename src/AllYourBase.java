@@ -9,7 +9,7 @@ import java.io.IOException;
 public class AllYourBase {
 	public static void main(String[] args) throws IOException {
 
-		BufferedReader br = new BufferedReader(new FileReader("src/input_allyourbase"));
+		BufferedReader br = new BufferedReader(new FileReader("input_allyourbase"));
 	    int trynum = 1 ; 
 	    String content = "";
 		try {
@@ -27,7 +27,7 @@ public class AllYourBase {
         		}
 	        }
 	        
-			File file = new File("src/output_allyourbase");
+			File file = new File("output_allyourbase");
 			 
 			if (!file.exists()) {
 				file.createNewFile();

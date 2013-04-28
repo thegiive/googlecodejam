@@ -13,7 +13,7 @@ public class Permute{
         }
     }
     public static void main(String[] args){
-        Permute.permute(java.util.Arrays.asList(3,4,6), 0);
+        Permute.permute(java.util.Arrays.asList(1,2,3,4,5,6,7,8), 0);
         System.out.println(total_num);
 
     }
