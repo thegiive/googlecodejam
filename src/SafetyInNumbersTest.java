@@ -80,4 +80,13 @@ public class SafetyInNumbersTest {
 	
 	}
 	
+	@Test
+	public void testGet5() {
+		int[] arr = { 0 , 0 , 0 , 72 , 0 , 10 }; 
+
+
+		assertEquals( "22.439024 22.439024 22.439024 0.000000 22.439024 10.243902 " , SafetyInNumbers.getResult(arr) );
+	
+	}
+	
 }
